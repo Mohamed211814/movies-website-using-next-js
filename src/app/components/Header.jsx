@@ -1,7 +1,6 @@
 "use client"
 
 import Link from 'next/link'
-import React, { useState } from 'react'
 
 import { IoIosHome } from "react-icons/io";
 import { FaInfoCircle } from "react-icons/fa";
@@ -19,7 +18,7 @@ export default function header() {
             <Link href="/about"><FaInfoCircle className='block md:hidden text-xl'/></Link>
         </div>
 
-        <div>
+        <div className='flex gap-2 items-center'>
           <Link href="/">
             <h1 className='text-xl flex items-center gap-1'>
               <span className='bg-yellow-400 px-4 py-1 rounded-lg font-semibold'>POMY</span>

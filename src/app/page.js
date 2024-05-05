@@ -3,7 +3,7 @@ import React from 'react'
 export default function home() {
   return (
     <div>
-      home page
+      home page lorem 100
     </div>
   )
 }
